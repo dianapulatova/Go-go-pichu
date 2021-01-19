@@ -11,5 +11,6 @@ func isUniqueChars (str string) bool {
 		}
 		checker |= (1 << val)
 	}
+	return true
 	
 }
