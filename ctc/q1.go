@@ -1,4 +1,5 @@
-// using bitvector 
+//method one using bit vector
+// using bit vector 
 func isUniqueChars (str string) bool {
 	if len(str) > 128 {
 		return false
