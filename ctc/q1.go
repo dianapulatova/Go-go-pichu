@@ -6,6 +6,9 @@ func isUniqueChars (str string) bool {
 	var checker unit = 0; // use this int as a bit vector
 	for _, char := range str {
 		val := uint(char) -uint('a')
+		if ((checker & (1 << val)) > 0) {
+			return false
+		}
 	}
 	
 }
