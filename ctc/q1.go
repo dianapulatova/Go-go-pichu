@@ -9,6 +9,7 @@ func isUniqueChars (str string) bool {
 		if ((checker & (1 << val)) > 0) {
 			return false
 		}
+		checker |= (1 << val)
 	}
 	
 }
