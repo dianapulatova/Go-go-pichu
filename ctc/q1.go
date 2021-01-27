@@ -30,3 +30,4 @@ func is UniqueChars2(str string) bool {
 	}
 	return true
 }
+
