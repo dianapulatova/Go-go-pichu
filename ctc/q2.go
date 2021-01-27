@@ -12,3 +12,10 @@ func testReverse(t *testing.T) {
 		{"abcde", "edcba"}
 	}
 }
+
+for _, thisCase := range cases {
+	result := reverse(thisCase.input)
+	if result != thisCase.expect {
+		t.Errorf("reverse: input %q, expect %q, but got %q\n", thisCase.input, thisCase.expect, result)
+	}
+}
