@@ -21,7 +21,7 @@ for _, thisCase := range cases {
 }
 
 // function to reverse a C style string, by returning a new reversed string
-// func reverse(str string) string {
+func reverse(str string) string {
 	length := len(str)
 	revArr := []byte(str)
 	for i := length / 2; i >= 0; i-- {
