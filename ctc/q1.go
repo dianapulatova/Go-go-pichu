@@ -16,18 +16,18 @@ func isUniqueChars(str string) bool {
 	
 }
 
-method two - using a boolean array
-func is UniqueChars2(str string) bool {
-	if len(str) > 128 {
-		return false
-	}
-	var char_set [128]bool 
-	for _, val := range str {
-		if char_set[val] {
-			return false
-		}
-		char_set[val] = true
-	}
-	return true
-}
+// method two - using a boolean array
+// func is UniqueChars2(str string) bool {
+// 	if len(str) > 128 {
+// 		return false
+// 	}
+// 	var char_set [128]bool 
+// 	for _, val := range str {
+// 		if char_set[val] {
+// 			return false
+// 		}
+// 		char_set[val] = true
+// 	}
+// 	return true
+// }
 
