@@ -28,6 +28,6 @@ func is UniqueChars2(str string) bool {
 		}
 		char_set[val] = true
 	}
-// 	return true
+	return true
 // }
 
