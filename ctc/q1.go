@@ -27,7 +27,7 @@ func is UniqueChars2(str string) bool {
 			return false
 		}
 		char_set[val] = true
-// 	}
+	}
 // 	return true
 // }
 
