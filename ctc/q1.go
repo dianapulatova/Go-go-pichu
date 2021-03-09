@@ -22,7 +22,7 @@ func is UniqueChars2(str string) bool {
 		return false
 	}
 	var char_set [128]bool 
-// 	for _, val := range str {
+	for _, val := range str {
 // 		if char_set[val] {
 // 			return false
 // 		}
