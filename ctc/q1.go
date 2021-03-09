@@ -18,7 +18,7 @@ func isUniqueChars(str string) bool {
 
 method two - using a boolean array
 func is UniqueChars2(str string) bool {
-// 	if len(str) > 128 {
+	if len(str) > 128 {
 // 		return false
 // 	}
 // 	var char_set [128]bool 
