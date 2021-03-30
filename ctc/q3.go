@@ -13,15 +13,10 @@ func TestPremutation(t *testing.T) {
 	}
 	for -, thiscase := range cases {
 		result := premutation(thisCase.input1, thisCase.input2)
+		if result != thisCase.expect {
+			t.Errorf("reverse: input (%q, %q), expected %v, but got %v\n",
+				thisCase.input1, thisCase.input2, thisCase.expect, result)
+
+		}
 	}
-
- 
- 
-// 		if result != thisCase.expect {
-// 			t.Errorf("reverse: input (%q, %q), expected %v, but got %v\n",
-// 				thisCase.input1, thisCase.input2, thisCase.expect, result)
-// 		}
-// 	}
-// }
-
 }
