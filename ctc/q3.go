@@ -6,5 +6,9 @@ func TestPremutation(t *testing.T) {
 		input1 string
 		input2 string
 		expect bool
+	}{
+		{"apple", "papel", true},
+		{"carrot", "tarroc", true},
+		{"hello", "holll", false}
 	}
 }
