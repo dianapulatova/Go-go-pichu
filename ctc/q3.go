@@ -11,11 +11,12 @@ func TestPremutation(t *testing.T) {
 		{"carrot", "tarroc", true},
 		{"hello", "holll", false}
 	}
-	fir -, thiscase := range cases {
+	for -, thiscase := range cases {
 		result := premutation(thisCase.input1, thisCase.input2)
 	}
-// 	for _, thisCase := range cases {
-// 		result := permutation(thisCase.input1, thisCase.input2)
+
+ 
+ 
 // 		if result != thisCase.expect {
 // 			t.Errorf("reverse: input (%q, %q), expected %v, but got %v\n",
 // 				thisCase.input1, thisCase.input2, thisCase.expect, result)
