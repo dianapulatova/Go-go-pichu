@@ -9,5 +9,5 @@ func countSpaces(str string) int {
 			countSpaces++
 		}
 	}
-	
+	return countSpaces	
 }
