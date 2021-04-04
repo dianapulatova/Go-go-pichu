@@ -21,6 +21,19 @@ func TestReplaceSpace(t *testing.T){
 		{"  ", `%20%20`},
 	}
 	for _, thisCase := range cases {
-		
+
+		str := thisCase.input;
+        // make sufficient memoryspace for spaces in string
+        charsArr := make([]rune, (len(str) + countSpaces(str)*2) )
+        for i, v := range []rune(str) {
+        charsArr[i] = v
+
 	}
+	ReplaceSpace(charsArr, len(str))
+	    result := string(charsArr)
+	    if result != thisCase.expect {
+		    t.Errorf("ReplaceSpace: input %q, expected %q, but got %q\n",
+		  	    thisCase.input, thisCase.expect, result)
+	    }
+    }
 }
