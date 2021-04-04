@@ -11,3 +11,9 @@ func countSpaces(str string) int {
 	}
 	return countSpaces	
 }
+func TestReplaceSpace(t *testing.T){
+	cases := []struct{
+		input string
+		expect string
+	}
+}
