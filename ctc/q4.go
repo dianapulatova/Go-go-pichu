@@ -15,5 +15,9 @@ func TestReplaceSpace(t *testing.T){
 	cases := []struct{
 		input string
 		expect string
+	}{
+		{"abc d e f ", `abc%20d%20e%20f%20`},
+		{"abc d e f", `abc%20d%20e%20f`},
+		{"  ", `%20%20`},
 	}
 }
