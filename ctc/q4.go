@@ -20,4 +20,7 @@ func TestReplaceSpace(t *testing.T){
 		{"abc d e f", `abc%20d%20e%20f`},
 		{"  ", `%20%20`},
 	}
+	for _, thisCase := range cases {
+		
+	}
 }
