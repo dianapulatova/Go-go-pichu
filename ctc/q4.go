@@ -29,7 +29,7 @@ func TestReplaceSpace(t *testing.T){
         charsArr[i] = v
 
 	}
-	// ReplaceSpace(charsArr, len(str))
+	ReplaceSpace(charsArr, len(str))
 	//     result := string(charsArr)
 	//     if result != thisCase.expect {
 	// 	    t.Errorf("ReplaceSpace: input %q, expected %q, but got %q\n",
